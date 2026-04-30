@@ -79,6 +79,10 @@ function GameObject(x,y,w,h,color)
      this.vx = 0;
      this.vy = 0;
 
+         this.force = 1;
+        this.ax = 1;  
+        this.ay = 1; 
+        
      this.drawCircle = function()
      {
         context.save();

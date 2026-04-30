@@ -10,28 +10,27 @@ document.addEventListener("keyup", release)
 
 function press(e)
 {
-    console.log("Pressed "+ e.keyCode)
-    if(e.keyCode == 87)
+
+    if(e.keyCode == 65)
     {
-        w=true;
+        a = true;
     }
-    if(e.keyCode == 83)
+    if(e.keyCode == 68)
     {
-        s=true;
+        d = true;
     }
 
 }
 
 function release(e)
 {
-    console.log("Pressed "+ e.keyCode)
-    if(e.keyCode == 87)
+    if(e.keyCode == 65)
     {
-        w=false;
+        a = false;
     }
-    if(e.keyCode == 83)
+    if(e.keyCode == 68)
     {
-        s=false;
+        d = false;
     }
     
 }
