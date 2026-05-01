@@ -44,6 +44,7 @@ function animate()
      if (ball.x < 0 + ball.width/2)
      {
          ball.vx *= -1;
+         ball.x ++;
      }
      if(ball.y > canvas.height + ball.height/2 - 100)
      {
@@ -67,11 +68,11 @@ function animate()
     
     function doHandleAcceleration () 
     {
-        if (d == true) {
+        if (d) {
             player.vx += player.ax * player.force;
         }
 
-        if (a == true) {
+        if (a) {
             player.vx += player.ax * -player.force;
         }
     }
