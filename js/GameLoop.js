@@ -5,6 +5,9 @@ var gravity = 0.3;
 
 var Score = 0;
 
+var d = false;
+var a = false;
+
 canvas = document.getElementById("canvas")
 context = canvas.getContext("2d")
 
