@@ -125,9 +125,7 @@ function animate()
             Score++;
         }
 
-        
-
-
+    
     }
 
     function doHandleGravity () {
